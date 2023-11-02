@@ -1,0 +1,242 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: sans-serif;
+}
+.banner{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(House.jpg);
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#name{
+    font-weight: bold;
+    color: white;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li ::after{
+    content:' ';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+    width: 100%;
+}
+.index{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+
+}
+.index h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.index p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border:none;
+}
+#heading{
+    margin-left: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ /*image setup*/
+.bedroom {
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap:50px;
+    padding:6px;
+    /* border: black; */
+    justify-content: center;
+  }
+  .gallery{
+    border:1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .bedroom {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .bedroom {
+      width: 100%;
+    }
+  }
+
+#cont{
+  background-color: black;
+  padding: 20px;
+  margin-top: 12px;
+}
+#cnt{
+  font-family: cursive;
+  color: white;
+  text-align: center;
+}
+section{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dae7b6;
+  transition: 0.5s;
+}
+
+.content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textbox{
+  position: relative;
+  /* max-width: 800px; */
+}
+.content .textbox h2{
+  margin-top: auto;
+  color: white;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.content .textbox h2 text{
+  color: white;
+  font-size: 1em;
+  /* line-height: 1.5cm; */
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.content .textbox p{
+  color: white;
+  font-family: cursive;
+}
+.content .textbox a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: white;
+  color: #111;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.content .imgBox{
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+}
+.content .imgBox img{
+  padding-left: 30px;
+  max-width: 560px;
+  border-radius: 20px;
+}
+.thumb{
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+.thumb li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.thumb li:hover{
+  transform: translateY(-15px);
+}
+.thumb li img{
+  max-width: 60px;
+}

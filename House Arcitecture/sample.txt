@@ -1,0 +1,55 @@
+<div id="bedroome">
+      
+    <h1 id="bedroome">Bedroom Interior Designs</h1>
+    At Livspace, we’ve got a wide range of affordable and stylish bedroom designs that you’ll love. Our carefully-curated master bedroom designs come in a variety of styles, colour schemes and decor ideas - all of which can be customised to your taste. Whether you’re looking for a contemporary style or a room with rustic sensibilities, we’ve got all the bedroom interior design inspiration you’ll need to create a space that reflects your personality and taste. Take your pick from these trending designs and start your bedroom renovation journey today with Livspace.
+    <div class="bedroom">
+            <div class="gallery">
+              <a target="_blank" href="bedroom 1 pic">
+                <img src="bedroom 1 pic" alt="item1" >
+              </a>
+              <div class="desc"> Design 1</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="bedroom 2">
+                  <img src="bedroom 2" alt="item2">
+                </a>
+                <div class="desc">About US</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="bedroom 3">
+                  <img src="bedroom 3" alt="item3">
+                </a>
+                <div class="desc">Contact page</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="item4.png">
+                  <img src="bedroom 4" alt="item4">
+                </a>
+                <div class="desc">Question page</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="item5.png">
+                  <img src="item5.png" alt="item5">
+                </a>
+                <div class="desc">Pricing page</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="item6.png">
+                  <img src="item6.png" alt="item6">
+                </a>
+                <div class="desc">Product Page</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="item7.png">
+                  <img src="item7.png" alt="item7">
+                </a>
+                <div class="desc">Services</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="item8.png">
+                  <img src="item8.png" alt="item8">
+                </a>
+                <div class="desc">Service Details</div>
+              </div>
+        </div>        
+    </div>

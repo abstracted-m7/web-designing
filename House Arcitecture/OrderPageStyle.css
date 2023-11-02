@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(148, 200, 240);
+}
+/* Style for the container div */
+.form-container {
+  font-family: sans-serif;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the form element */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the select element */
+select {
+  padding: 5px;
+  margin-bottom: none;
+  border: none;
+  border-radius: 2px;
+}
+
+/* Style for the submit button */
+input[type="Submit"] {
+  background-color: #00ff2a;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="Reset"] {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedroom Styles</title>
+    <link rel="index style" href="IndexStyle.css">
+    <link rel="Stylesheet" href="BedroomStyle.css">
+    <script src="bedroomJS.js"></script>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <text class="logo">MaNish</text>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#sample">Poroducts</a></li>
+                <li><a href="#cont">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Thats what<br><span>I like</span></h2>
+                <p>Hi this is the sample of some bedrooms, if you like somthing then you choose from this.</p>
+                <a href="#sample"><span></span>View all Poroducts</a>
+            </div>
+            <div class="imgBox">
+                <img src="bedroom 1 pic" class="image">
+            </div>
+        </div>
+        <ul class="thumb" id="sample">
+            <li><img src="bedroom 1 pic" onclick="imgSlider('bedroom 1 pic');changeBgcolor('#dae7b6')"></li>
+            <li><img src="bedroom 2" onclick="imgSlider('bedroom 2');changeBgcolor('#0062be')"></li>
+            <li><img src="bedroom 3" onclick="imgSlider('bedroom 3');changeBgcolor('#e60c2c')"></li>
+            <li><img src="bedroom 4" onclick="imgSlider('bedroom 4');changeBgcolor('#757574')"></li>
+            <li><img src="House.jpg" onclick="imgSlider('House.jpg');changeBgcolor('#713f3f')"></li>
+        </ul>
+    </section>
+</body>
+</html>
